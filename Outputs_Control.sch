@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -88,7 +88,7 @@ AR Path="/5D4C2700" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4C2700" Ref="J4"  Part="1" 
 F 0 "J4" H 4400 1400 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 4400 1500 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 4400 1750 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 4400 1750 50  0001 C CNN
 F 3 "~" H 4400 1750 50  0001 C CNN
 	1    4400 1750
 	-1   0    0    1   
@@ -217,7 +217,7 @@ AR Path="/5D4D10FA" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4D10FA" Ref="J9"  Part="1" 
 F 0 "J9" H 7258 3931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7258 3840 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 7150 3750 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 7150 3750 50  0001 C CNN
 F 3 "~" H 7150 3750 50  0001 C CNN
 	1    7150 3750
 	-1   0    0    -1  
@@ -366,7 +366,7 @@ AR Path="/5D4D7F48" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4D7F48" Ref="J11"  Part="1" 
 F 0 "J11" H 9508 1831 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 9508 1740 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 9400 1650 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 9400 1650 50  0001 C CNN
 F 3 "~" H 9400 1650 50  0001 C CNN
 	1    9400 1650
 	-1   0    0    -1  
@@ -491,7 +491,7 @@ AR Path="/5D4FCEA1" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4FCEA1" Ref="J8"  Part="1" 
 F 0 "J8" H 6958 1831 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 6958 1740 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 6850 1650 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 6850 1650 50  0001 C CNN
 F 3 "~" H 6850 1650 50  0001 C CNN
 	1    6850 1650
 	-1   0    0    -1  
@@ -613,7 +613,7 @@ AR Path="/5D4FCEF3" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4FCEF3" Ref="J10"  Part="1" 
 F 0 "J10" H 9508 3931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 9508 3840 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 9400 3750 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 9400 3750 50  0001 C CNN
 F 3 "~" H 9400 3750 50  0001 C CNN
 	1    9400 3750
 	-1   0    0    -1  
@@ -735,7 +735,7 @@ AR Path="/5D4FCF45" Ref="J?"  Part="1"
 AR Path="/5D48EDF7/5D4FCF45" Ref="J12"  Part="1" 
 F 0 "J12" H 5008 3931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 5008 3840 50  0000 C CNN
-F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 4900 3750 50  0001 C CNN
+F 2 "#MyLibrary:JST_XH_S02B_ChinaLowCost" H 4900 3750 50  0001 C CNN
 F 3 "~" H 4900 3750 50  0001 C CNN
 	1    4900 3750
 	-1   0    0    -1  

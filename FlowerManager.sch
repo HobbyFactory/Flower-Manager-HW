@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega324PA-AU U1
-U 1 1 5D0D3641
-P 2600 3350
-F 0 "U1" H 1850 1350 50  0000 C CNN
-F 1 "ATmega324PA-AU" H 2150 1250 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2600 3350 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" H 2600 3350 50  0001 C CNN
-	1    2600 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5D0D670E
 P 2350 1150
@@ -299,7 +288,7 @@ U 1 1 5D0F657D
 P 6850 2350
 F 0 "Y1" H 6850 2618 50  0000 C CNN
 F 1 "FC135" H 6850 2527 50  0000 C CNN
-F 2 "footprints:Crystal_SMD_FC135" H 6850 2350 50  0001 C CNN
+F 2 "#MyLibrary:Crystal_SMD_FC135" H 6850 2350 50  0001 C CNN
 F 3 "~" H 6850 2350 50  0001 C CNN
 	1    6850 2350
 	1    0    0    -1  
@@ -940,7 +929,7 @@ U 1 1 5D51BB64
 P 1400 3350
 F 0 "Y2" H 1400 3598 50  0000 C CNN
 F 1 "Resonator" H 1400 3507 50  0000 C CNN
-F 2 "footprints:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_with3D" H 1375 3350 50  0001 C CNN
+F 2 "#MyLibrary:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_with3D" H 1375 3350 50  0001 C CNN
 F 3 "~" H 1375 3350 50  0001 C CNN
 	1    1400 3350
 	1    0    0    -1  
@@ -1042,4 +1031,15 @@ Wire Wire Line
 	2600 850  2600 1150
 Text Notes 10600 7650 0    50   ~ 0
 HW1.1
+$Comp
+L MCU_Microchip_ATmega:ATmega324PA-AU U1
+U 1 1 5D0D3641
+P 2600 3350
+F 0 "U1" H 1850 1350 50  0000 C CNN
+F 1 "ATmega324PA-AU" H 2150 1250 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2600 3350 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" H 2600 3350 50  0001 C CNN
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,5 @@
+﻿*.bak
+Outputs_Control-cache.lib
+*.kicad_pcb-bak
+FlowerManager-cache.lib
+fp-info-cache

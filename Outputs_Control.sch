@@ -1,0 +1,1025 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D?
+U 1 1 5D4A2601
+P 3900 1850
+AR Path="/5D4A2601" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4A2601" Ref="D1"  Part="1" 
+F 0 "D1" V 3850 1400 50  0000 L CNN
+F 1 "MBR0520" V 3950 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 1850 50  0001 C CNN
+F 3 "~" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2000 3900 2050
+Wire Wire Line
+	3900 1700 3900 1650
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 3900 2100
+Wire Wire Line
+	3900 2500 3900 2700
+$Comp
+L Device:R R?
+U 1 1 5D4A2618
+P 3350 2300
+AR Path="/5D4A2618" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4A2618" Ref="R8"  Part="1" 
+F 0 "R8" V 3143 2300 50  0000 C CNN
+F 1 "120R" V 3234 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 2300 50  0001 C CNN
+F 3 "~" H 3350 2300 50  0001 C CNN
+	1    3350 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4A2621
+P 3900 2750
+AR Path="/5D4A2621" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4A2621" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 3900 2500 50  0001 C CNN
+F 1 "GND" H 3905 2577 50  0000 C CNN
+F 2 "" H 3900 2750 50  0001 C CNN
+F 3 "" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 3900 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 1600 3900 1650
+Connection ~ 3900 1650
+$Comp
+L 74xGxx:74LVC1G08 U6
+U 1 1 5D4B1000
+P 2900 2300
+F 0 "U6" H 2600 2650 50  0000 C CNN
+F 1 "74LVC1G08" H 2600 2550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2900 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2900 2300 50  0001 C CNN
+	1    2900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2300 3200 2300
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4C2700
+P 4400 1750
+AR Path="/5D4C2700" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4C2700" Ref="J4"  Part="1" 
+F 0 "J4" H 4400 1400 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4400 1500 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 4400 1750 50  0001 C CNN
+F 3 "~" H 4400 1750 50  0001 C CNN
+	1    4400 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 1650 4200 1650
+Wire Wire Line
+	4200 1750 4150 1750
+Wire Wire Line
+	4150 1750 4150 2050
+Wire Wire Line
+	3900 2050 4150 2050
+Wire Wire Line
+	2900 2700 2900 2400
+Wire Wire Line
+	2900 2200 2900 2150
+$Comp
+L power:+5V #PWR05
+U 1 1 5D4C5657
+P 2900 2050
+F 0 "#PWR05" H 2900 1900 50  0001 C CNN
+F 1 "+5V" H 2915 2223 50  0000 C CNN
+F 2 "" H 2900 2050 50  0001 C CNN
+F 3 "" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 2350 0    50   Input ~ 0
+EN_PUMP
+$Comp
+L Device:D D?
+U 1 1 5D4D10CC
+P 6650 3950
+AR Path="/5D4D10CC" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4D10CC" Ref="D3"  Part="1" 
+F 0 "D3" V 6600 3500 50  0000 L CNN
+F 1 "MBR0520" V 6700 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6650 3950 50  0001 C CNN
+F 3 "~" H 6650 3950 50  0001 C CNN
+	1    6650 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 4100 6650 4150
+Wire Wire Line
+	6650 3800 6650 3750
+Connection ~ 6650 4150
+Wire Wire Line
+	6650 4150 6650 4200
+$Comp
+L Device:R R?
+U 1 1 5D4D10D6
+P 6300 4600
+AR Path="/5D4D10D6" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4D10D6" Ref="R22"  Part="1" 
+F 0 "R22" H 6370 4646 50  0000 L CNN
+F 1 "8k2" H 6370 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6230 4600 50  0001 C CNN
+F 3 "~" H 6300 4600 50  0001 C CNN
+	1    6300 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4750 6300 4800
+Wire Wire Line
+	6300 4800 6650 4800
+Wire Wire Line
+	6650 4600 6650 4800
+$Comp
+L Device:R R?
+U 1 1 5D4D10DF
+P 6100 4400
+AR Path="/5D4D10DF" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4D10DF" Ref="R12"  Part="1" 
+F 0 "R12" V 5893 4400 50  0000 C CNN
+F 1 "120R" V 5984 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 4400 50  0001 C CNN
+F 3 "~" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4D10E5
+P 6650 4850
+AR Path="/5D4D10E5" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4D10E5" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 6650 4600 50  0001 C CNN
+F 1 "GND" H 6655 4677 50  0000 C CNN
+F 2 "" H 6650 4850 50  0001 C CNN
+F 3 "" H 6650 4850 50  0001 C CNN
+	1    6650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4850 6650 4800
+Connection ~ 6650 4800
+Wire Wire Line
+	6650 3700 6650 3750
+Connection ~ 6650 3750
+$Comp
+L 74xGxx:74LVC1G08 U8
+U 1 1 5D4D10EF
+P 5650 4400
+F 0 "U8" H 5400 4700 50  0000 C CNN
+F 1 "74LVC1G08" H 5400 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5650 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5650 4400 50  0001 C CNN
+	1    5650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4400 5950 4400
+Wire Wire Line
+	6250 4400 6300 4400
+Wire Wire Line
+	6300 4450 6300 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	6300 4400 6350 4400
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4D10FA
+P 7150 3750
+AR Path="/5D4D10FA" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4D10FA" Ref="J9"  Part="1" 
+F 0 "J9" H 7258 3931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7258 3840 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 7150 3750 50  0001 C CNN
+F 3 "~" H 7150 3750 50  0001 C CNN
+	1    7150 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3750 6950 3750
+Wire Wire Line
+	6950 3850 6900 3850
+Wire Wire Line
+	6900 3850 6900 4150
+Wire Wire Line
+	6650 4150 6900 4150
+Wire Wire Line
+	6300 4800 5650 4800
+Wire Wire Line
+	5650 4800 5650 4500
+Connection ~ 6300 4800
+Wire Wire Line
+	5650 4300 5650 4150
+$Comp
+L power:+5V #PWR012
+U 1 1 5D4D1108
+P 5650 4150
+F 0 "#PWR012" H 5650 4000 50  0001 C CNN
+F 1 "+5V" H 5665 4323 50  0000 C CNN
+F 2 "" H 5650 4150 50  0001 C CNN
+F 3 "" H 5650 4150 50  0001 C CNN
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4450 0    50   Input ~ 0
+COMMON_PWM
+Text GLabel 5300 4350 0    50   Input ~ 0
+EN_VALVE4
+Wire Wire Line
+	5300 4350 5350 4350
+Wire Wire Line
+	5300 4450 5350 4450
+$Comp
+L power:+10V #PWR014
+U 1 1 5D4D1112
+P 6650 3700
+F 0 "#PWR014" H 6650 3550 50  0001 C CNN
+F 1 "+10V" H 6665 3873 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D4D7F1A
+P 8900 1850
+AR Path="/5D4D7F1A" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4D7F1A" Ref="D6"  Part="1" 
+F 0 "D6" V 8850 1400 50  0000 L CNN
+F 1 "MBR0520" V 8950 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 8900 1850 50  0001 C CNN
+F 3 "~" H 8900 1850 50  0001 C CNN
+	1    8900 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2000 8900 2050
+Wire Wire Line
+	8900 1700 8900 1650
+Connection ~ 8900 2050
+Wire Wire Line
+	8900 2050 8900 2100
+$Comp
+L Device:R R?
+U 1 1 5D4D7F24
+P 8550 2500
+AR Path="/5D4D7F24" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4D7F24" Ref="R26"  Part="1" 
+F 0 "R26" H 8620 2546 50  0000 L CNN
+F 1 "8k2" H 8620 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 2500 50  0001 C CNN
+F 3 "~" H 8550 2500 50  0001 C CNN
+	1    8550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2650 8550 2700
+Wire Wire Line
+	8550 2700 8900 2700
+Wire Wire Line
+	8900 2500 8900 2700
+$Comp
+L Device:R R?
+U 1 1 5D4D7F2D
+P 8350 2300
+AR Path="/5D4D7F2D" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4D7F2D" Ref="R24"  Part="1" 
+F 0 "R24" V 8143 2300 50  0000 C CNN
+F 1 "120R" V 8234 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8280 2300 50  0001 C CNN
+F 3 "~" H 8350 2300 50  0001 C CNN
+	1    8350 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4D7F33
+P 8900 2750
+AR Path="/5D4D7F33" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4D7F33" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 8900 2500 50  0001 C CNN
+F 1 "GND" H 8905 2577 50  0000 C CNN
+F 2 "" H 8900 2750 50  0001 C CNN
+F 3 "" H 8900 2750 50  0001 C CNN
+	1    8900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2750 8900 2700
+Connection ~ 8900 2700
+Wire Wire Line
+	8900 1600 8900 1650
+Connection ~ 8900 1650
+$Comp
+L 74xGxx:74LVC1G08 U10
+U 1 1 5D4D7F3D
+P 7900 2300
+F 0 "U10" H 7650 2600 50  0000 C CNN
+F 1 "74LVC1G08" H 7650 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7900 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7900 2300 50  0001 C CNN
+	1    7900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2300 8200 2300
+Wire Wire Line
+	8500 2300 8550 2300
+Wire Wire Line
+	8550 2350 8550 2300
+Connection ~ 8550 2300
+Wire Wire Line
+	8550 2300 8600 2300
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4D7F48
+P 9400 1650
+AR Path="/5D4D7F48" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4D7F48" Ref="J11"  Part="1" 
+F 0 "J11" H 9508 1831 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 9508 1740 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 9400 1650 50  0001 C CNN
+F 3 "~" H 9400 1650 50  0001 C CNN
+	1    9400 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1650 9200 1650
+Wire Wire Line
+	9200 1750 9150 1750
+Wire Wire Line
+	9150 1750 9150 2050
+Wire Wire Line
+	8900 2050 9150 2050
+Wire Wire Line
+	8550 2700 7900 2700
+Wire Wire Line
+	7900 2700 7900 2400
+Connection ~ 8550 2700
+Wire Wire Line
+	7900 2200 7900 2050
+$Comp
+L power:+5V #PWR018
+U 1 1 5D4D7F56
+P 7900 2050
+F 0 "#PWR018" H 7900 1900 50  0001 C CNN
+F 1 "+5V" H 7915 2223 50  0000 C CNN
+F 2 "" H 7900 2050 50  0001 C CNN
+F 3 "" H 7900 2050 50  0001 C CNN
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 2350 0    50   Input ~ 0
+COMMON_PWM
+Text GLabel 7550 2250 0    50   Input ~ 0
+EN_VALVE2
+Wire Wire Line
+	7550 2250 7600 2250
+Wire Wire Line
+	7550 2350 7600 2350
+$Comp
+L power:+10V #PWR020
+U 1 1 5D4D7F60
+P 8900 1600
+F 0 "#PWR020" H 8900 1450 50  0001 C CNN
+F 1 "+10V" H 8915 1773 50  0000 C CNN
+F 2 "" H 8900 1600 50  0001 C CNN
+F 3 "" H 8900 1600 50  0001 C CNN
+	1    8900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D4FCE73
+P 6350 1850
+AR Path="/5D4FCE73" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCE73" Ref="D2"  Part="1" 
+F 0 "D2" V 6300 1400 50  0000 L CNN
+F 1 "MBR0520" V 6400 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 1850 50  0001 C CNN
+F 3 "~" H 6350 1850 50  0001 C CNN
+	1    6350 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2000 6350 2050
+Wire Wire Line
+	6350 1700 6350 1650
+Connection ~ 6350 2050
+Wire Wire Line
+	6350 2050 6350 2100
+Wire Wire Line
+	6350 2500 6350 2700
+$Comp
+L Device:R R?
+U 1 1 5D4FCE86
+P 5800 2300
+AR Path="/5D4FCE86" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCE86" Ref="R9"  Part="1" 
+F 0 "R9" V 5593 2300 50  0000 C CNN
+F 1 "120R" V 5684 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 2300 50  0001 C CNN
+F 3 "~" H 5800 2300 50  0001 C CNN
+	1    5800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4FCE8C
+P 6350 2750
+AR Path="/5D4FCE8C" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCE8C" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6350 2500 50  0001 C CNN
+F 1 "GND" H 6355 2577 50  0000 C CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2750 6350 2700
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 1600 6350 1650
+Connection ~ 6350 1650
+$Comp
+L 74xGxx:74LVC1G08 U7
+U 1 1 5D4FCE96
+P 5350 2300
+F 0 "U7" H 5100 2600 50  0000 C CNN
+F 1 "74LVC1G08" H 5100 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5350 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2300 5650 2300
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4FCEA1
+P 6850 1650
+AR Path="/5D4FCEA1" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCEA1" Ref="J8"  Part="1" 
+F 0 "J8" H 6958 1831 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6958 1740 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 6850 1650 50  0001 C CNN
+F 3 "~" H 6850 1650 50  0001 C CNN
+	1    6850 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1650 6650 1650
+Wire Wire Line
+	6650 1750 6600 1750
+Wire Wire Line
+	6600 1750 6600 2050
+Wire Wire Line
+	6350 2050 6600 2050
+Wire Wire Line
+	5350 2700 5350 2400
+Wire Wire Line
+	5350 2200 5350 2050
+$Comp
+L power:+5V #PWR06
+U 1 1 5D4FCEAF
+P 5350 2050
+F 0 "#PWR06" H 5350 1900 50  0001 C CNN
+F 1 "+5V" H 5365 2223 50  0000 C CNN
+F 2 "" H 5350 2050 50  0001 C CNN
+F 3 "" H 5350 2050 50  0001 C CNN
+	1    5350 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 2350 0    50   Input ~ 0
+COMMON_PWM
+Text GLabel 5000 2250 0    50   Input ~ 0
+EN_VALVE1
+Wire Wire Line
+	5000 2250 5050 2250
+Wire Wire Line
+	5000 2350 5050 2350
+$Comp
+L power:+10V #PWR010
+U 1 1 5D4FCEB9
+P 6350 1600
+F 0 "#PWR010" H 6350 1450 50  0001 C CNN
+F 1 "+10V" H 6365 1773 50  0000 C CNN
+F 2 "" H 6350 1600 50  0001 C CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D4FCEC5
+P 8900 3950
+AR Path="/5D4FCEC5" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCEC5" Ref="D5"  Part="1" 
+F 0 "D5" V 8850 3500 50  0000 L CNN
+F 1 "MBR0520" V 8950 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 8900 3950 50  0001 C CNN
+F 3 "~" H 8900 3950 50  0001 C CNN
+	1    8900 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 4100 8900 4150
+Wire Wire Line
+	8900 3800 8900 3750
+Connection ~ 8900 4150
+Wire Wire Line
+	8900 4150 8900 4200
+Wire Wire Line
+	8900 4600 8900 4800
+$Comp
+L Device:R R?
+U 1 1 5D4FCED8
+P 8350 4400
+AR Path="/5D4FCED8" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCED8" Ref="R13"  Part="1" 
+F 0 "R13" V 8143 4400 50  0000 C CNN
+F 1 "120R" V 8234 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8280 4400 50  0001 C CNN
+F 3 "~" H 8350 4400 50  0001 C CNN
+	1    8350 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4FCEDE
+P 8900 4850
+AR Path="/5D4FCEDE" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCEDE" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 8900 4600 50  0001 C CNN
+F 1 "GND" H 8905 4677 50  0000 C CNN
+F 2 "" H 8900 4850 50  0001 C CNN
+F 3 "" H 8900 4850 50  0001 C CNN
+	1    8900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4850 8900 4800
+Connection ~ 8900 4800
+Wire Wire Line
+	8900 3700 8900 3750
+Connection ~ 8900 3750
+$Comp
+L 74xGxx:74LVC1G08 U9
+U 1 1 5D4FCEE8
+P 7900 4400
+F 0 "U9" H 7650 4700 50  0000 C CNN
+F 1 "74LVC1G08" H 7650 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 7900 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7900 4400 50  0001 C CNN
+	1    7900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4400 8200 4400
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4FCEF3
+P 9400 3750
+AR Path="/5D4FCEF3" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCEF3" Ref="J10"  Part="1" 
+F 0 "J10" H 9508 3931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 9508 3840 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 9400 3750 50  0001 C CNN
+F 3 "~" H 9400 3750 50  0001 C CNN
+	1    9400 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3750 9200 3750
+Wire Wire Line
+	9200 3850 9150 3850
+Wire Wire Line
+	9150 3850 9150 4150
+Wire Wire Line
+	8900 4150 9150 4150
+Wire Wire Line
+	7900 4800 7900 4500
+Wire Wire Line
+	7900 4300 7900 4150
+$Comp
+L power:+5V #PWR013
+U 1 1 5D4FCF01
+P 7900 4150
+F 0 "#PWR013" H 7900 4000 50  0001 C CNN
+F 1 "+5V" H 7915 4323 50  0000 C CNN
+F 2 "" H 7900 4150 50  0001 C CNN
+F 3 "" H 7900 4150 50  0001 C CNN
+	1    7900 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 4450 0    50   Input ~ 0
+COMMON_PWM
+Text GLabel 7550 4350 0    50   Input ~ 0
+EN_VALVE5
+Wire Wire Line
+	7550 4350 7600 4350
+Wire Wire Line
+	7550 4450 7600 4450
+$Comp
+L power:+10V #PWR016
+U 1 1 5D4FCF0B
+P 8900 3700
+F 0 "#PWR016" H 8900 3550 50  0001 C CNN
+F 1 "+10V" H 8915 3873 50  0000 C CNN
+F 2 "" H 8900 3700 50  0001 C CNN
+F 3 "" H 8900 3700 50  0001 C CNN
+	1    8900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D4FCF17
+P 4400 3950
+AR Path="/5D4FCF17" Ref="D?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCF17" Ref="D7"  Part="1" 
+F 0 "D7" V 4350 3500 50  0000 L CNN
+F 1 "MBR0520" V 4450 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4400 3950 50  0001 C CNN
+F 3 "~" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 4100 4400 4150
+Wire Wire Line
+	4400 3800 4400 3750
+Connection ~ 4400 4150
+Wire Wire Line
+	4400 4150 4400 4200
+Wire Wire Line
+	4400 4600 4400 4800
+$Comp
+L Device:R R?
+U 1 1 5D4FCF2A
+P 3850 4400
+AR Path="/5D4FCF2A" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCF2A" Ref="R25"  Part="1" 
+F 0 "R25" V 3643 4400 50  0000 C CNN
+F 1 "120R" V 3734 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 4400 50  0001 C CNN
+F 3 "~" H 3850 4400 50  0001 C CNN
+	1    3850 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4FCF30
+P 4400 4850
+AR Path="/5D4FCF30" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCF30" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 4400 4600 50  0001 C CNN
+F 1 "GND" H 4405 4677 50  0000 C CNN
+F 2 "" H 4400 4850 50  0001 C CNN
+F 3 "" H 4400 4850 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4850 4400 4800
+Connection ~ 4400 4800
+Wire Wire Line
+	4400 3700 4400 3750
+Connection ~ 4400 3750
+$Comp
+L 74xGxx:74LVC1G08 U11
+U 1 1 5D4FCF3A
+P 3400 4400
+F 0 "U11" H 3150 4700 50  0000 C CNN
+F 1 "74LVC1G08" H 3150 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3400 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4400 3700 4400
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D4FCF45
+P 4900 3750
+AR Path="/5D4FCF45" Ref="J?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCF45" Ref="J12"  Part="1" 
+F 0 "J12" H 5008 3931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5008 3840 50  0000 C CNN
+F 2 "footprints:JST_XH_S02B_ChinaLowCost" H 4900 3750 50  0001 C CNN
+F 3 "~" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3750 4700 3750
+Wire Wire Line
+	4700 3850 4650 3850
+Wire Wire Line
+	4650 3850 4650 4150
+Wire Wire Line
+	4400 4150 4650 4150
+Wire Wire Line
+	3400 4800 3400 4500
+Wire Wire Line
+	3400 4300 3400 4150
+$Comp
+L power:+5V #PWR019
+U 1 1 5D4FCF53
+P 3400 4150
+F 0 "#PWR019" H 3400 4000 50  0001 C CNN
+F 1 "+5V" H 3415 4323 50  0000 C CNN
+F 2 "" H 3400 4150 50  0001 C CNN
+F 3 "" H 3400 4150 50  0001 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 4450 0    50   Input ~ 0
+COMMON_PWM
+Wire Wire Line
+	3050 4350 3100 4350
+Wire Wire Line
+	3050 4450 3100 4450
+$Comp
+L power:+10V #PWR022
+U 1 1 5D4FCF5D
+P 4400 3700
+F 0 "#PWR022" H 4400 3550 50  0001 C CNN
+F 1 "+10V" H 4415 3873 50  0000 C CNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2350 2600 2350
+Wire Wire Line
+	2600 2250 2550 2250
+Wire Wire Line
+	2550 2250 2550 2150
+Wire Wire Line
+	2550 2150 2900 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2150 2900 2050
+$Comp
+L power:+5V #PWR08
+U 1 1 5D50A865
+P 3900 1600
+F 0 "#PWR08" H 3900 1450 50  0001 C CNN
+F 1 "+5V" H 3915 1773 50  0000 C CNN
+F 2 "" H 3900 1600 50  0001 C CNN
+F 3 "" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5D50B058
+P 3650 1650
+F 0 "C14" V 3902 1650 50  0000 C CNN
+F 1 "100nF/50V" V 3811 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3688 1500 50  0001 C CNN
+F 3 "~" H 3650 1650 50  0001 C CNN
+	1    3650 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D50C9CF
+P 3300 1700
+AR Path="/5D50C9CF" Ref="#PWR?"  Part="1" 
+AR Path="/5D48EDF7/5D50C9CF" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 3300 1450 50  0001 C CNN
+F 1 "GND" H 3305 1527 50  0000 C CNN
+F 2 "" H 3300 1700 50  0001 C CNN
+F 3 "" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1650 3300 1650
+Wire Wire Line
+	3300 1650 3300 1700
+Wire Wire Line
+	3800 1650 3900 1650
+Wire Wire Line
+	3550 2700 2900 2700
+Wire Wire Line
+	3550 2700 3900 2700
+Connection ~ 3550 2700
+Wire Wire Line
+	3550 2650 3550 2700
+Wire Wire Line
+	3550 2300 3600 2300
+Wire Wire Line
+	3500 2300 3550 2300
+Connection ~ 3550 2300
+Wire Wire Line
+	3550 2350 3550 2300
+$Comp
+L Device:R R?
+U 1 1 5D4A260D
+P 3550 2500
+AR Path="/5D4A260D" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4A260D" Ref="R10"  Part="1" 
+F 0 "R10" H 3620 2546 50  0000 L CNN
+F 1 "8k2" H 3620 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 2500 50  0001 C CNN
+F 3 "~" H 3550 2500 50  0001 C CNN
+	1    3550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2300 6050 2300
+Wire Wire Line
+	5950 2300 6000 2300
+Connection ~ 6000 2300
+Wire Wire Line
+	6000 2350 6000 2300
+$Comp
+L Device:R R?
+U 1 1 5D4FCE7D
+P 6000 2500
+AR Path="/5D4FCE7D" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCE7D" Ref="R11"  Part="1" 
+F 0 "R11" H 6070 2546 50  0000 L CNN
+F 1 "8k2" H 6070 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 2500 50  0001 C CNN
+F 3 "~" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2700 5350 2700
+Wire Wire Line
+	6000 2700 6350 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2650 6000 2700
+Wire Wire Line
+	8550 4800 7900 4800
+Wire Wire Line
+	8550 4800 8900 4800
+Connection ~ 8550 4800
+Wire Wire Line
+	8550 4750 8550 4800
+Wire Wire Line
+	8550 4400 8600 4400
+Wire Wire Line
+	8500 4400 8550 4400
+Connection ~ 8550 4400
+Wire Wire Line
+	8550 4450 8550 4400
+$Comp
+L Device:R R?
+U 1 1 5D4FCECF
+P 8550 4600
+AR Path="/5D4FCECF" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCECF" Ref="R23"  Part="1" 
+F 0 "R23" H 8620 4646 50  0000 L CNN
+F 1 "8k2" H 8620 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 4600 50  0001 C CNN
+F 3 "~" H 8550 4600 50  0001 C CNN
+	1    8550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4800 3400 4800
+Wire Wire Line
+	4050 4800 4400 4800
+Connection ~ 4050 4800
+Wire Wire Line
+	4050 4750 4050 4800
+Wire Wire Line
+	4050 4400 4100 4400
+Wire Wire Line
+	4000 4400 4050 4400
+Connection ~ 4050 4400
+Wire Wire Line
+	4050 4450 4050 4400
+$Comp
+L Device:R R?
+U 1 1 5D4FCF21
+P 4050 4600
+AR Path="/5D4FCF21" Ref="R?"  Part="1" 
+AR Path="/5D48EDF7/5D4FCF21" Ref="R27"  Part="1" 
+F 0 "R27" H 4120 4646 50  0000 L CNN
+F 1 "8k2" H 4120 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 4600 50  0001 C CNN
+F 3 "~" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4CE95E
+P 3800 2300
+AR Path="/5D4CE95E" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4CE95E" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3550 2500 50  0000 L CNN
+F 1 "AO3406" H 3450 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 2400 50  0001 C CNN
+F 3 "~" H 3800 2300 50  0001 C CNN
+	1    3800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4D8B1C
+P 6250 2300
+AR Path="/5D4D8B1C" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4D8B1C" Ref="Q2"  Part="1" 
+F 0 "Q2" H 6000 2500 50  0000 L CNN
+F 1 "AO3406" H 5900 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6450 2400 50  0001 C CNN
+F 3 "~" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4D9A8F
+P 8800 4400
+AR Path="/5D4D9A8F" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4D9A8F" Ref="Q4"  Part="1" 
+F 0 "Q4" H 8550 4600 50  0000 L CNN
+F 1 "AO3406" H 8450 4500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 4500 50  0001 C CNN
+F 3 "~" H 8800 4400 50  0001 C CNN
+	1    8800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4DA827
+P 4300 4400
+AR Path="/5D4DA827" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4DA827" Ref="Q6"  Part="1" 
+F 0 "Q6" H 4050 4600 50  0000 L CNN
+F 1 "AO3406" H 3950 4500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 4500 50  0001 C CNN
+F 3 "~" H 4300 4400 50  0001 C CNN
+	1    4300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4DB50E
+P 8800 2300
+AR Path="/5D4DB50E" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4DB50E" Ref="Q5"  Part="1" 
+F 0 "Q5" H 8550 2500 50  0000 L CNN
+F 1 "AO3406" H 8450 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 2400 50  0001 C CNN
+F 3 "~" H 8800 2300 50  0001 C CNN
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5D4DBF9A
+P 6550 4400
+AR Path="/5D4DBF9A" Ref="Q?"  Part="1" 
+AR Path="/5D48EDF7/5D4DBF9A" Ref="Q3"  Part="1" 
+F 0 "Q3" H 6300 4600 50  0000 L CNN
+F 1 "AO3406" H 6200 4500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 4500 50  0001 C CNN
+F 3 "~" H 6550 4400 50  0001 C CNN
+	1    6550 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 4350 0    50   Input ~ 0
+EN_VALVE3
+Text Notes 1900 3150 0    50   ~ 0
+*Add pulldowns in next revision, pump starting for a while at power supply connect
+$EndSCHEMATC
